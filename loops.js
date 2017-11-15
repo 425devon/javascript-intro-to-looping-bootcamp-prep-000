@@ -18,3 +18,13 @@ function whileLoop(n){
   return 'done';
 }
 
+function doWhileLoop(array){
+  var i = array.length - 1
+  do{
+    array.pop
+    i--
+  }while(i>0){
+    return array;
+  }
+  }
+}
